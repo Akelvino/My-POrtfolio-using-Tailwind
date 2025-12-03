@@ -11,4 +11,7 @@
     .menu{
         @apply hover:text-gray-500;
     }
+    .menu-2{
+    
+    }
 }

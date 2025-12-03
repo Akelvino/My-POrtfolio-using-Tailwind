@@ -25,15 +25,27 @@
                         <li><a href="#" class="menu">Projects</a></li>
                         <li><a href="#" class="menu">Contact</a></li>
                     </ul>
-                    <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 cursor-pointer md:hidden"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /></svg>
+                    <div class="relative z-20 md:hidden w-10 h-10">
+                        <svg id="hamberg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke-width="1.5" stroke="currentColor" class="size-10 cursor-pointer">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+
+                        <svg id="close" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20"
+                            class="size-10 cursor-pointer hidden absolute top-0 left-0">
+                            <path
+                                d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+                        </svg>
                     </div>
-                     <ul class=" hidden absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white">
-                        <li><a href="#" class="menu">Home</a></li>
-                        <li><a href="#" class="menu">About</a></li>
-                        <li><a href="#" class="menu">Service</a></li>
-                        <li><a href="#" class="menu">Projects</a></li>
-                        <li><a href="#" class="menu">Contact</a></li>
+
+                    <ul class=" hidden absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white bg-indigo-400"
+                        id="menu">
+                        <li><a href="#" class="menu-2">Home</a></li>
+                        <li><a href="#" class="menu-2">About</a></li>
+                        <li><a href="#" class="menu-2">Service</a></li>
+                        <li><a href="#" class="menu-2">Projects</a></li>
+                        <li><a href="#" class="menu-2">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -42,4 +54,5 @@
 
     <script src="./main.js"></script>
 </body>
+
 </html>
