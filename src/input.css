@@ -6,3 +6,9 @@
     --breakpoint-sm:480px;
     --font-nunito:"Nunito", sans-serif;
 }
+
+@layer utilities{
+    .menu{
+        @apply hover:text-gray-500;
+    }
+}
